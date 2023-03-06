@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import factory from "../ethereum/factory";
+import factory from "@/ethereum/factory";
 import { Button, Card } from "semantic-ui-react";
-import Layout from "../components/Layout";
+import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
 
 const CampaignIndex = ({ campaigns }) => {

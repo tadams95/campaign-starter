@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Button, Table } from "semantic-ui-react";
 import { useRouter } from "next/router";
-import Layout from "../../../components/Layout";
-import Campaign from "../../../ethereum/campaign";
-import RequestRow from "../../../components/RequestRow";
+import Layout from "@/components/Layout";
+import Campaign from "@/ethereum/campaign";
+import RequestRow from "@/components/RequestRow";
 
 const RequestIndex = ({ address, requests, requestCount, approversCount }) => {
   const router = useRouter();
